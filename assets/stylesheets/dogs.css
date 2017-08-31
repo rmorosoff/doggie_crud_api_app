@@ -1,0 +1,65 @@
+#tableBox {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+#formBox {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+#addLink, #returnLink {
+  color: lightgreen;
+  font-size: 1.5em;
+}
+
+#dogTable {
+  border: 2px solid green;
+  width: 90%;
+  border-collapse: collapse;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  color: black;
+  background-color: white;
+  font-size: large;
+}
+
+#dogTable td {
+  border: 1px solid green;
+  text-align: center;
+  background-color: white;
+  color: black
+}
+
+#dogTable th {
+  border: 1px solid green;
+  text-align: center;
+  background-color: white;
+  color: black
+}
+
+#updateForm {
+  border: 2px solid green;
+  width: 70%;
+  border-collapse: collapse;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  color: black;
+  background-color: white;
+  font-size: large;
+
+}
+
+#dogForm {
+  border: 2px solid green;
+  width: 70%;
+  border-collapse: collapse;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  color: black;
+  background-color: white;
+  font-size: large;
+
+}

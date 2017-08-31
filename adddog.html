@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Add Doggie Form</title>
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.15/datatables.min.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link type="text/css" rel="stylesheet" href="assets/stylesheets/dogs.css" />
+</head>
+
+<body>
+
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Doggie Input</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="index.html" id="returnLink">Return to Dog Table</a></li>
+
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
+
+  <div id="formBox">
+
+
+    <form class="form-horizontal" id="dogForm">
+      <fieldset>
+
+        <!-- Form Name -->
+        <legend>Doggie Input Form</legend>
+
+        <!-- Text input-->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="dogName">Dog Name</label>
+          <div class="col-md-4">
+            <input id="dogName" name="dogName" type="text" placeholder="Doggie" class="form-control input-md" required="">
+            <span class="help-block">Enter the dog's name</span>
+          </div>
+        </div>
+
+        <!-- Text input-->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="ownerFirstName">Owner First Name</label>
+          <div class="col-md-4">
+            <input id="ownerFirstName" name="ownerFirstName" type="text" placeholder="First Name" class="form-control input-md" required="">
+            <span class="help-block">Enter owner's first name</span>
+          </div>
+        </div>
+
+        <!-- Text input-->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="ownerLastName">Owner Last Name</label>
+          <div class="col-md-4">
+            <input id="ownerLastName" name="ownerLastName" type="text" placeholder="Last Name" class="form-control input-md" required="">
+            <span class="help-block">Enter owner's last name</span>
+          </div>
+        </div>
+
+        <!-- Text input-->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="ownerEmail">Owner Email</label>
+          <div class="col-md-4">
+            <input id="ownerEmail" name="ownerEmail" type="text" placeholder="xxxx@xxxxx.xxx" class="form-control input-md" required="">
+            <span class="help-block">Enter owner</span>
+          </div>
+        </div>
+
+        <!-- Text input-->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="dogBreed">Breed</label>
+          <div class="col-md-4">
+            <input id="dogBreed" name="dogBreed" type="text" placeholder="Breed or Mix" class="form-control input-md">
+            <span class="help-block">Enter breed of dog</span>
+          </div>
+        </div>
+
+        <!-- Text input-->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="dogBirthYear">Dog Birth Year</label>
+          <div class="col-md-4">
+            <input id="dogBirthYear" name="dogBirthYear" type="text" placeholder="YYYY" class="form-control input-md" required="">
+            <span class="help-block">Enter year dog was born (YYYY)</span>
+          </div>
+        </div>
+
+        <!-- Text input-->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="dogGender">Dog Gender</label>
+          <div class="col-md-4">
+            <input id="dogGender" name="dogGender" type="text" placeholder="male or female" class="form-control input-md" required="">
+            <span class="help-block">Enter gender of dog</span>
+          </div>
+        </div>
+
+        <!-- Button  -->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="addButton">Go ahead and add this dog</label>
+          <div class="col-md-8">
+            <button id="addButton" name="addButton" class="btn btn-success">Add Dog</button>
+          </div>
+        </div>
+
+      </fieldset>
+    </form>
+
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.15/datatables.min.js"></script>
+  <script type="text/javascript" src="assets/javascript/adddog.js"></script>
+</body>
+
+</html>
